@@ -288,3 +288,7 @@
 ## 2026-08-01 Logo Mark Right Nudge
 
 - Nudged the PTR mark a little further right inside the oval badge.
+
+## 2026-08-01 Reference Style Logo Badge
+
+- Updated `assets/ptr-logo-racing-black.png` toward the reference badge style with a thicker white oval band, black interior, centered PTR mark, and purple splash retained.
