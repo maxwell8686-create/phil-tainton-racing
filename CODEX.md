@@ -58,3 +58,31 @@
 - Darkened the header and trust band to feel more like a race workshop/pit lane.
 - Added angled red buttons, speed-line overlays, sharper project links, and track-inspired CSS texture.
 - Updated homepage copy toward race preparation, lap speed, throttle response, and hard performance numbers.
+
+## 2026-08-01 Sitemap Pull
+
+- Downloaded `https://www.ptr.com.au/sitemap.xml` to `ptr-sitemap.xml`.
+- Parsed sitemap to `ptr-sitemap-pages.csv`.
+- Total URLs found: 194.
+- Core rebuild candidates:
+  - `/about/`
+  - `/services/`
+  - `/road-bike-services/`
+  - `/offroad-bike-services/`
+  - `/dyno-tuning/`
+  - `/motorcycle-dyno-tuning/`
+  - `/motorbike-tuning/`
+  - `/cylinder-heads/`
+  - `/engine-packages/`
+  - `/machine-shop/`
+  - `/suspension-packages/`
+  - `/chassis/`
+  - `/gearboxes/`
+  - `/crankshaft-modification/`
+  - `/contact/`
+- Project rebuild candidates:
+  - `/gsx-s1000-katana/`
+  - `/bandit-1250/`
+  - `/gsx-1300r-1650cc-hayabusa-290hp/`
+  - `/gsx-1400-1620cc-160hp/`
+- Shop/product URLs exist in the sitemap but should be handled separately because static pages will not replace WooCommerce cart/checkout behavior without ecommerce implementation.
