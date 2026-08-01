@@ -258,3 +258,8 @@
 ## 2026-08-01 Remove Logo Swish
 
 - Removed the purple swish accent from `assets/ptr-logo-racing-black.png` while keeping the wider white oval badge border.
+
+## 2026-08-01 Oval Logo Badge
+
+- Rebuilt `assets/ptr-logo-racing-black.png` as a true oval badge with transparent outside corners.
+- Removed the internal rectangular backing so the PTR logo reads as an oval shape instead of a boxed image.
