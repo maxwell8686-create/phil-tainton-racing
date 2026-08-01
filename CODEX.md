@@ -242,3 +242,7 @@
 
 - Replaced the dyno post feature image with `assets/services/dyno-tuning.jpg` so the visual matches the dyno-room copy.
 - Updated the matching Facebook highlight image reference and alt text.
+
+## 2026-08-01 Logo Oval Border
+
+- Added a white oval border directly to `assets/ptr-logo-racing-black.png` so the main PTR logo has a stronger racing badge feel.
