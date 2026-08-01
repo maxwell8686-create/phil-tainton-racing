@@ -86,3 +86,16 @@
   - `/gsx-1300r-1650cc-hayabusa-290hp/`
   - `/gsx-1400-1620cc-160hp/`
 - Shop/product URLs exist in the sitemap but should be handled separately because static pages will not replace WooCommerce cart/checkout behavior without ecommerce implementation.
+
+## 2026-08-01 Social/Project Image Pass
+
+- Tried to pull public images directly from the PTR Facebook page and individual Facebook photo URLs.
+- Facebook returned only shell/static assets to automated fetches, so original post images were not directly available.
+- Added usable public PTR Katana project imagery from a Phil Tainton Racing feature article as a temporary social/project image source.
+- New local files:
+  - `assets/social/katana-action.jpg`
+  - `assets/social/katana-detail.jpg`
+  - `assets/social/katana-front.jpg`
+  - `assets/social/katana-road.jpg`
+  - `assets/social/katana-side.jpg`
+- Added a homepage "From the feed" gallery and updated the project feature image.
