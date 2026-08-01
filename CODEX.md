@@ -215,3 +215,20 @@
   - ItemList of services
   - Service schema for dyno tuning, cylinder heads, suspension, chassis, machine shop, and gearbox/crankshaft modifications
 - Improved image alt text with more descriptive motorcycle tuning, dyno, race preparation, and PTR service keywords.
+
+## 2026-08-01 Shop Category SEO Links
+
+- Pulled live PTR shop category links from `https://www.ptr.com.au/shop/`.
+- Added a homepage "Shop parts + categories" section linking to major shop categories:
+  - ECU reflashing
+  - Suspension / chassis setup
+  - BMW S1000RR
+  - Suzuki GSX-R1000
+  - Suzuki GSX-R1000R
+  - Suzuki Hayabusa
+  - Suzuki Katana
+  - Suzuki GSX-R600 / GSX-R750
+  - Suzuki RM-Z / RMX
+  - KTM 250 SXF
+  - Marketplace / new and used parts
+- Added JSON-LD ItemList schema for key shop categories to improve topical relevance around motorcycle parts, model categories, and performance services.

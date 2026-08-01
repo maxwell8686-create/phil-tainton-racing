@@ -327,6 +327,7 @@ h3 {
 .facebook-proof,
 .dyno-post,
 .facebook-highlights,
+.shop-links,
 .contact-section {
   padding: clamp(64px, 9vw, 112px) clamp(20px, 5vw, 76px);
 }
@@ -522,6 +523,62 @@ h3 {
 .highlight-grid p {
   color: #cdcdcd;
   line-height: 1.55;
+}
+
+.shop-links {
+  color: var(--white);
+  background:
+    radial-gradient(circle at 14% 8%, rgba(215, 27, 255, 0.2), transparent 26%),
+    linear-gradient(120deg, #101011, #1c1c20);
+}
+
+.shop-links .section-heading p:not(.eyebrow) {
+  color: #d2d2d2;
+}
+
+.supplier-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.supplier-grid a {
+  display: grid;
+  align-content: space-between;
+  min-height: 132px;
+  padding: 20px;
+  color: var(--white);
+  text-decoration: none;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.055), transparent),
+    #151517;
+  border-bottom: 3px solid transparent;
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.supplier-grid a:hover {
+  border-color: var(--red-hot);
+  background:
+    linear-gradient(145deg, rgba(215, 27, 255, 0.2), transparent),
+    #1f1f22;
+  transform: translateY(-2px);
+}
+
+.supplier-grid span {
+  color: #ff7cff;
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.supplier-grid strong {
+  display: block;
+  margin-top: 26px;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  text-transform: uppercase;
 }
 
 .service-grid {
@@ -787,7 +844,8 @@ footer p {
   .dyno-post,
   .project-layout,
   .gallery-grid,
-  .highlight-grid {
+  .highlight-grid,
+  .supplier-grid {
     grid-template-columns: 1fr;
   }
 
