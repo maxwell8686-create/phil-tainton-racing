@@ -51,3 +51,10 @@
 - Decide whether to keep this as a static site or move to Next.js once Node is installed.
 - Add GitHub/Vercel setup once `git` and a deploy path are available.
 - Review copy with PTR for accuracy before production launch.
+
+## 2026-08-01 Racing Feel Pass
+
+- Added a red racing discipline ticker below the hero.
+- Darkened the header and trust band to feel more like a race workshop/pit lane.
+- Added angled red buttons, speed-line overlays, sharper project links, and track-inspired CSS texture.
+- Updated homepage copy toward race preparation, lap speed, throttle response, and hard performance numbers.

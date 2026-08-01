@@ -1,11 +1,13 @@
 :root {
   --ink: #151515;
-  --muted: #656565;
-  --panel: #f4f1ec;
-  --line: #ded8cf;
+  --muted: #6c6c6c;
+  --panel: #ece8df;
+  --line: #d6d1c8;
   --red: #c8151d;
+  --red-hot: #f3232d;
   --red-dark: #9d1118;
   --charcoal: #202020;
+  --track: #0e0e0f;
   --white: #ffffff;
 }
 
@@ -21,7 +23,9 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
-  background: #fbfaf7;
+  background:
+    repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.025) 0 1px, transparent 1px 18px),
+    #fbfaf7;
 }
 
 a {
@@ -38,8 +42,8 @@ a {
   gap: 24px;
   min-height: 82px;
   padding: 14px clamp(18px, 4vw, 64px);
-  background: rgba(251, 250, 247, 0.94);
-  border-bottom: 1px solid var(--line);
+  background: rgba(14, 14, 15, 0.92);
+  border-bottom: 3px solid var(--red);
   backdrop-filter: blur(18px);
 }
 
@@ -54,7 +58,8 @@ nav {
   align-items: center;
   gap: clamp(14px, 3vw, 34px);
   font-size: 0.9rem;
-  font-weight: 700;
+  color: var(--white);
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -76,8 +81,9 @@ footer a:hover {
   color: var(--white);
   font-weight: 800;
   text-decoration: none;
-  background: var(--red);
-  border-radius: 4px;
+  background: linear-gradient(135deg, var(--red-hot), var(--red-dark));
+  border-radius: 0;
+  clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
 }
 
 .hero {
@@ -87,16 +93,41 @@ footer a:hover {
   align-items: end;
   overflow: hidden;
   color: var(--white);
-  background: var(--charcoal);
+  background: var(--track);
 }
 
 .hero-media {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.38) 48%, rgba(0, 0, 0, 0.18)),
+    radial-gradient(circle at 74% 20%, rgba(243, 35, 45, 0.34), transparent 22%),
+    linear-gradient(105deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.58) 46%, rgba(0, 0, 0, 0.18)),
     url("assets/race-bike.jpg") center / cover;
   transform: scale(1.02);
+  filter: saturate(1.16) contrast(1.14);
+}
+
+.hero-media::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.06) 0 1px, transparent 1px 9px),
+    linear-gradient(180deg, transparent 0 72%, rgba(0, 0, 0, 0.82));
+  mix-blend-mode: screen;
+  opacity: 0.3;
+}
+
+.speed-lines {
+  position: absolute;
+  inset: auto -12vw 13vh 38vw;
+  height: 210px;
+  background:
+    linear-gradient(100deg, transparent 0 16%, rgba(243, 35, 45, 0.88) 16% 18%, transparent 18% 27%, rgba(255, 255, 255, 0.75) 27% 28%, transparent 28% 100%),
+    repeating-linear-gradient(100deg, transparent 0 34px, rgba(255, 255, 255, 0.16) 34px 36px, transparent 36px 68px);
+  transform: skewX(-18deg);
+  opacity: 0.75;
+  pointer-events: none;
 }
 
 .hero-content {
@@ -110,7 +141,7 @@ footer a:hover {
   color: var(--red);
   font-size: 0.78rem;
   font-weight: 900;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
 }
 
@@ -128,10 +159,11 @@ p {
 h1 {
   max-width: 780px;
   margin-bottom: 20px;
-  font-size: clamp(3.8rem, 12vw, 8.9rem);
+  font-size: clamp(3.8rem, 12vw, 9.4rem);
   line-height: 0.86;
   letter-spacing: 0;
   text-transform: uppercase;
+  text-shadow: 0 7px 0 rgba(200, 21, 29, 0.72), 0 24px 54px rgba(0, 0, 0, 0.72);
 }
 
 h2 {
@@ -170,12 +202,18 @@ h3 {
   font-weight: 900;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 0;
+  clip-path: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
+  transition: transform 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
 }
 
 .button.primary {
   color: var(--white);
-  background: var(--red);
+  background: linear-gradient(135deg, var(--red-hot), var(--red-dark));
 }
 
 .button.primary:hover {
@@ -191,16 +229,37 @@ h3 {
   color: var(--white);
 }
 
+.race-ticker {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  color: var(--white);
+  background: var(--red);
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.28);
+}
+
+.race-ticker span {
+  min-height: 46px;
+  display: grid;
+  place-items: center;
+  padding: 0 14px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .trust-band {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-bottom: 1px solid var(--line);
-  background: var(--white);
+  background: #161616;
 }
 
 .trust-band div {
   padding: 28px clamp(20px, 4vw, 48px);
-  border-right: 1px solid var(--line);
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .trust-band strong,
@@ -209,12 +268,14 @@ h3 {
 }
 
 .trust-band strong {
+  color: var(--white);
   margin-bottom: 6px;
   font-size: 1.35rem;
+  text-transform: uppercase;
 }
 
 .trust-band span {
-  color: var(--muted);
+  color: #c9c9c9;
   line-height: 1.45;
 }
 
@@ -242,25 +303,41 @@ h3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1px;
-  background: var(--line);
-  border: 1px solid var(--line);
+  background: #2b2b2b;
+  border: 1px solid #2b2b2b;
 }
 
 .service-grid article {
   min-height: 260px;
   padding: 28px;
-  background: var(--white);
+  position: relative;
+  overflow: hidden;
+  color: var(--white);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.04), transparent 42%),
+    var(--track);
+}
+
+.service-grid article::after {
+  position: absolute;
+  right: -30px;
+  bottom: -44px;
+  content: "";
+  width: 120px;
+  height: 120px;
+  border: 18px solid rgba(200, 21, 29, 0.28);
+  transform: skewX(-12deg);
 }
 
 .service-grid span {
   display: block;
   margin-bottom: 58px;
-  color: var(--red);
+  color: var(--red-hot);
   font-weight: 900;
 }
 
 .service-grid p {
-  color: var(--muted);
+  color: #cfcfcf;
   line-height: 1.55;
 }
 
@@ -269,7 +346,9 @@ h3 {
   grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
   gap: clamp(32px, 6vw, 72px);
   align-items: center;
-  background: var(--panel);
+  background:
+    linear-gradient(110deg, transparent 0 58%, rgba(200, 21, 29, 0.12) 58% 62%, transparent 62%),
+    var(--panel);
 }
 
 .image-panel img,
@@ -278,6 +357,8 @@ h3 {
   width: 100%;
   height: auto;
   object-fit: cover;
+  border: 8px solid #111111;
+  box-shadow: 18px 18px 0 var(--red);
 }
 
 .copy-panel {
@@ -286,7 +367,9 @@ h3 {
 
 .dark-section {
   color: var(--white);
-  background: var(--charcoal);
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 20px),
+    var(--track);
 }
 
 .dark-section .section-heading p:not(.eyebrow) {
@@ -314,11 +397,23 @@ h3 {
   display: flex;
   align-items: center;
   min-height: 84px;
+  position: relative;
+  padding-left: 22px;
   color: var(--white);
   font-size: clamp(1.05rem, 2vw, 1.45rem);
   font-weight: 800;
   text-decoration: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.project-list a::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 8px;
+  height: 38px;
+  background: var(--red-hot);
+  transform: skewX(-18deg);
 }
 
 .project-list a:hover {
@@ -341,7 +436,8 @@ h3 {
   justify-content: space-between;
   gap: 32px;
   color: var(--white);
-  background: var(--red);
+  background:
+    linear-gradient(110deg, var(--red-dark), var(--red-hot) 58%, #111111 58%);
 }
 
 .contact-section .eyebrow,
@@ -387,6 +483,7 @@ footer p {
   }
 
   .trust-band,
+  .race-ticker,
   .service-grid,
   .split-section,
   .project-layout {
@@ -425,6 +522,22 @@ footer p {
   .trust-band div {
     border-right: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .race-ticker {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .speed-lines {
+    inset: auto -40vw 18vh 8vw;
+    height: 150px;
+    opacity: 0.48;
+  }
+
+  .image-panel img,
+  .project-layout img {
+    border-width: 5px;
+    box-shadow: 10px 10px 0 var(--red);
   }
 
   .service-grid article {
