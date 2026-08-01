@@ -254,3 +254,7 @@
 ## 2026-08-01 Wider Logo Band And Swish
 
 - Widened the PTR logo oval band and added a purple racing swish accent inside the badge border.
+
+## 2026-08-01 Remove Logo Swish
+
+- Removed the purple swish accent from `assets/ptr-logo-racing-black.png` while keeping the wider white oval badge border.
