@@ -140,3 +140,16 @@
   - Date: April 30, 2017
   - Caption text visible: "with Phil Tainton and Brodie Waters."
 - Added the saved image to the heritage section and Facebook photo highlights section.
+
+## 2026-08-01 Services Page Content
+
+- Pulled service images from `https://www.ptr.com.au/services/`.
+- Saved local service assets:
+  - `assets/services/dyno-tuning.jpg`
+  - `assets/services/cylinder-head.jpg`
+  - `assets/services/suspension.jpg`
+  - `assets/services/chassis.jpg`
+  - `assets/services/machine-shop.jpg`
+  - `assets/services/gearbox.jpg`
+- Expanded homepage services grid from four text-only cards to six image-backed service cards.
+- Added service content for dyno tuning, cylinder head, suspension, chassis, machine shop, and gearboxes.
