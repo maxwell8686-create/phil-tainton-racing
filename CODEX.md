@@ -194,3 +194,9 @@
 - Replaced header and footer logo images with the upgraded racing logo.
 - Adjusted header/footer logo sizing for the wider asset.
 - Enlarged the footer logo presentation and added a purple racing footer treatment so it does not appear like a tiny logo on a plain black block.
+
+## 2026-08-01 Black Logo Background
+
+- Created a black-background version of the upgraded PTR racing logo to match the Facebook cover banner.
+- Saved as `assets/ptr-logo-racing-black.png`.
+- Updated header and footer to use the black-background logo.
