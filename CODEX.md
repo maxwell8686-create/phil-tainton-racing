@@ -250,3 +250,7 @@
 ## 2026-08-01 Larger Logo Oval
 
 - Rebuilt `assets/ptr-logo-racing-black.png` from the clean black logo with a larger canvas and wider oval so the border captures the purple splash.
+
+## 2026-08-01 Wider Logo Band And Swish
+
+- Widened the PTR logo oval band and added a purple racing swish accent inside the badge border.
