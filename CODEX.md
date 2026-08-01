@@ -246,3 +246,7 @@
 ## 2026-08-01 Logo Oval Border
 
 - Added a white oval border directly to `assets/ptr-logo-racing-black.png` so the main PTR logo has a stronger racing badge feel.
+
+## 2026-08-01 Larger Logo Oval
+
+- Rebuilt `assets/ptr-logo-racing-black.png` from the clean black logo with a larger canvas and wider oval so the border captures the purple splash.
