@@ -323,6 +323,7 @@ h3 {
 .split-section,
 .clients,
 .feed-gallery,
+.facebook-proof,
 .contact-section {
   padding: clamp(64px, 9vw, 112px) clamp(20px, 5vw, 76px);
 }
@@ -338,6 +339,93 @@ h3 {
   color: var(--muted);
   font-size: 1.05rem;
   line-height: 1.7;
+}
+
+.facebook-proof {
+  display: grid;
+  grid-template-columns: minmax(320px, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(28px, 5vw, 64px);
+  color: var(--white);
+  background:
+    radial-gradient(circle at 82% 20%, rgba(24, 119, 242, 0.22), transparent 24%),
+    linear-gradient(120deg, #111111, #1d1d1f);
+}
+
+.facebook-card h2 {
+  max-width: 680px;
+}
+
+.facebook-stats {
+  display: grid;
+  gap: 1px;
+  margin-top: 32px;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.facebook-stats div {
+  padding: 22px;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.facebook-stats strong,
+.facebook-stats span {
+  display: block;
+}
+
+.facebook-stats strong {
+  margin-bottom: 6px;
+  color: var(--white);
+  font-size: 1.35rem;
+  text-transform: uppercase;
+}
+
+.facebook-stats span {
+  color: #d7d7d7;
+  line-height: 1.45;
+}
+
+.facebook-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.facebook-contact a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0 14px;
+  color: var(--white);
+  font-weight: 900;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.facebook-contact a:last-child {
+  background: #1877f2;
+  border-color: #1877f2;
+}
+
+.facebook-visual {
+  display: grid;
+  grid-template-columns: 1fr 0.72fr;
+  grid-template-rows: repeat(2, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.facebook-visual img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+  border: 4px solid rgba(255, 255, 255, 0.12);
+}
+
+.facebook-visual .visual-large {
+  grid-row: 1 / span 2;
 }
 
 .service-grid {
@@ -581,9 +669,19 @@ footer p {
   .race-ticker,
   .service-grid,
   .split-section,
+  .facebook-proof,
   .project-layout,
   .gallery-grid {
     grid-template-columns: 1fr;
+  }
+
+  .facebook-visual {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 240px);
+  }
+
+  .facebook-visual .visual-large {
+    grid-row: span 1;
   }
 
   .gallery-grid {

@@ -99,3 +99,13 @@
   - `assets/social/katana-road.jpg`
   - `assets/social/katana-side.jpg`
 - Added a homepage "From the feed" gallery and updated the project feature image.
+
+## 2026-08-01 Facebook Details Block
+
+- Added a homepage Facebook details/social proof section based on the user's Facebook page screenshot.
+- Included:
+  - 94% recommend from 13 reviews
+  - `$$$` pricing indicator
+  - Knoxfield address
+  - Phone, email, and Facebook message link
+- Used existing local workshop/project imagery beside the details block.
