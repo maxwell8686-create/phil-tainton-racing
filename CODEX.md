@@ -297,7 +297,9 @@
 
 - Reduced the front-page `Phil Tainton Racing` hero heading size and tightened its max width for better balance.
 
-## 2026-08-01 Supplied Logo Image Added
+## 2026-08-01 SEO FAQ And Metadata Pass
 
-- Replaced `assets/ptr-logo-racing-black.png` with the supplied PTR oval badge image from the desktop.
-- The header, footer, and structured data logo reference now use the supplied logo asset.
+- Tightened homepage title, meta description, Open Graph description, Twitter description, and social image alt metadata around motorcycle dyno tuning, ECU reflashing, Knoxfield, and Melbourne.
+- Added Open Graph image dimensions and theme/telephone metadata.
+- Added FAQPage structured data and a visible homepage FAQ section for dyno tuning, ECU reflashing, and motorcycle performance services.
+- Updated the PTR logo asset so the outside blends with transparency and the lower `Phil Tainton Racing` wordmark reads white.
