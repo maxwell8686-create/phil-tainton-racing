@@ -272,3 +272,7 @@
 ## 2026-08-01 Centered Typography
 
 - Centered the hero copy/actions and reusable section headings so the updated fonts feel more balanced and intentional.
+
+## 2026-08-01 Center Footer Content
+
+- Centered the footer logo, footer text, and social icons so they align with the oval PTR badge.
