@@ -166,3 +166,15 @@
 - Saved cleaned hero image with Facebook UI icons removed:
   - `assets/facebook/suzuki-action-hero-clean.png`
 - Updated homepage hero background to use `assets/facebook/suzuki-action-hero-clean.png`.
+
+## 2026-08-01 Facebook Cover Banner
+
+- Redesigned the old PTR Facebook banner to better match the website style.
+- Direction:
+  - Black/red racing visual system
+  - Road performance and off road performance split
+  - Central PTR branding
+  - Clean service list
+  - Bottom band with `PHIL TAINTON RACING | www.ptr.com.au`
+- Saved final banner asset:
+  - `assets/facebook/ptr-facebook-cover-2026.png`
