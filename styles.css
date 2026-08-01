@@ -10,7 +10,6 @@
   --charcoal: #202020;
   --track: #0e0e0f;
   --white: #ffffff;
-  --checkers: conic-gradient(#ffffff 25%, transparent 0 50%, #ffffff 0 75%, transparent 0);
 }
 
 * {
@@ -26,8 +25,6 @@ body {
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
   background:
-    linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)),
-    var(--checkers) 0 0 / 36px 36px,
     repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.025) 0 1px, transparent 1px 18px),
     #fbfaf7;
 }
@@ -49,19 +46,6 @@ a {
   background: rgba(14, 14, 15, 0.92);
   border-bottom: 3px solid var(--red);
   backdrop-filter: blur(18px);
-}
-
-.site-header::after {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -9px;
-  height: 6px;
-  content: "";
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)),
-    var(--checkers) 0 0 / 18px 18px;
-  opacity: 0.72;
 }
 
 .brand img {
@@ -169,12 +153,10 @@ footer a:hover {
   inset: 0;
   content: "";
   background:
-    linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)),
-    var(--checkers) 0 0 / 34px 34px,
     repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.06) 0 1px, transparent 1px 9px),
     linear-gradient(180deg, transparent 0 72%, rgba(0, 0, 0, 0.82));
   mix-blend-mode: screen;
-  opacity: 0.34;
+  opacity: 0.3;
 }
 
 .speed-lines {
@@ -292,9 +274,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   color: var(--white);
-  background:
-    linear-gradient(rgba(215, 27, 255, 0.9), rgba(122, 25, 216, 0.9)),
-    var(--checkers) 0 0 / 28px 28px;
+  background: var(--red);
   border-top: 1px solid rgba(255, 255, 255, 0.16);
   border-bottom: 1px solid rgba(0, 0, 0, 0.28);
 }
@@ -315,9 +295,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-bottom: 1px solid var(--line);
-  background:
-    linear-gradient(rgba(22, 22, 22, 0.92), rgba(22, 22, 22, 0.92)),
-    var(--checkers) 0 0 / 42px 42px;
+  background: #161616;
 }
 
 .trust-band div {
@@ -351,35 +329,6 @@ h3 {
 .facebook-highlights,
 .contact-section {
   padding: clamp(64px, 9vw, 112px) clamp(20px, 5vw, 76px);
-}
-
-.section,
-.split-section,
-.feed-gallery,
-.facebook-proof,
-.dyno-post,
-.facebook-highlights,
-.contact-section {
-  position: relative;
-}
-
-.section::before,
-.split-section::before,
-.feed-gallery::before,
-.facebook-proof::before,
-.dyno-post::before,
-.facebook-highlights::before,
-.contact-section::before {
-  position: absolute;
-  left: clamp(20px, 5vw, 76px);
-  right: clamp(20px, 5vw, 76px);
-  top: 0;
-  height: 8px;
-  content: "";
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)),
-    var(--checkers) 0 0 / 20px 20px;
-  opacity: 0.6;
 }
 
 .section-heading {
@@ -590,8 +539,6 @@ h3 {
   color: var(--white);
   background:
     linear-gradient(145deg, rgba(255, 255, 255, 0.04), transparent 42%),
-    linear-gradient(rgba(14, 14, 15, 0.94), rgba(14, 14, 15, 0.94)),
-    var(--checkers) 0 0 / 44px 44px,
     var(--track);
 }
 
@@ -660,8 +607,6 @@ h3 {
 .dark-section {
   color: var(--white);
   background:
-    linear-gradient(rgba(14, 14, 15, 0.9), rgba(14, 14, 15, 0.9)),
-    var(--checkers) 0 0 / 46px 46px,
     repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 20px),
     var(--track);
 }
@@ -799,8 +744,6 @@ footer {
   background:
     linear-gradient(180deg, var(--red-dark) 0 8px, transparent 8px),
     radial-gradient(circle at 12% 18%, rgba(215, 27, 255, 0.24), transparent 24%),
-    linear-gradient(rgba(11, 11, 12, 0.9), rgba(11, 11, 12, 0.9)),
-    var(--checkers) 0 0 / 44px 44px,
     #0b0b0c;
 }
 

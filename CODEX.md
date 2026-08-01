@@ -194,9 +194,3 @@
 - Replaced header and footer logo images with the upgraded racing logo.
 - Adjusted header/footer logo sizing for the wider asset.
 - Enlarged the footer logo presentation and added a purple racing footer treatment so it does not appear like a tiny logo on a plain black block.
-
-## 2026-08-01 Checkered Flag Style Pass
-
-- Added a reusable CSS checkered flag pattern.
-- Applied checkered race texture to the page background, header accent, hero overlay, race ticker, trust band, section dividers, service cards, dark project section, and footer.
-- Kept the pattern subtle so the purple racing brand and content remain readable.
