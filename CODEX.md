@@ -200,3 +200,18 @@
 - Created a black-background version of the upgraded PTR racing logo to match the Facebook cover banner.
 - Saved as `assets/ptr-logo-racing-black.png`.
 - Updated header and footer to use the black-background logo.
+
+## 2026-08-01 Technical SEO Pass
+
+- Added `robots.txt` with sitemap reference.
+- Added production `sitemap.xml` for the current static homepage.
+- Added homepage canonical URL: `https://www.ptr.com.au/`.
+- Added SEO title and meta description targeting motorcycle dyno tuning, race bike preparation, and Melbourne/Knoxfield service relevance.
+- Added Open Graph and Twitter card metadata using the hero image.
+- Added JSON-LD structured data:
+  - Local business / repair business profile
+  - Website
+  - WebPage
+  - ItemList of services
+  - Service schema for dyno tuning, cylinder heads, suspension, chassis, machine shop, and gearbox/crankshaft modifications
+- Improved image alt text with more descriptive motorcycle tuning, dyno, race preparation, and PTR service keywords.
