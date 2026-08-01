@@ -68,6 +68,25 @@ footer a {
   text-decoration: none;
 }
 
+.social-links,
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.social-links a {
+  color: var(--white);
+  font-size: 0.76rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.social-links a:hover {
+  color: #ff4d55;
+}
+
 nav a:hover,
 footer a:hover {
   color: var(--red);
@@ -474,6 +493,10 @@ footer p {
     width: 100%;
     overflow-x: auto;
     padding-bottom: 4px;
+  }
+
+  .social-links {
+    width: 100%;
   }
 
   .header-call {
