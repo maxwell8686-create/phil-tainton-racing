@@ -309,3 +309,7 @@
 - Added explicit image dimensions, lazy loading, and async decoding for below-the-fold images to reduce layout shift and improve page performance.
 - Replaced placeholder project links with real PTR shop/category destinations.
 - Added visible keyboard focus styles and reduced-motion support for better accessibility.
+
+## 2026-08-01 Logo Display Fix
+
+- Locked header and footer logo rendering to a wide badge aspect ratio and reduced the footer logo size so it no longer displays as a tall oval.
