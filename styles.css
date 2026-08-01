@@ -179,7 +179,9 @@ footer a:hover {
 .hero-content {
   position: relative;
   width: min(820px, 100%);
+  margin: 0 auto;
   padding: 0 clamp(20px, 6vw, 84px) clamp(54px, 10vh, 96px);
+  text-align: center;
 }
 
 .eyebrow {
@@ -244,6 +246,7 @@ h3 {
 .contact-actions {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 12px;
   margin-top: 30px;
 }
@@ -350,7 +353,8 @@ h3 {
 
 .section-heading {
   max-width: 860px;
-  margin-bottom: 42px;
+  margin: 0 auto 42px;
+  text-align: center;
 }
 
 .section-heading p:not(.eyebrow),

@@ -268,3 +268,7 @@
 
 - Added Google Fonts `Oswald` and `Rajdhani` for a sharper race-shop feel.
 - Applied display typography to headings, navigation, buttons, labels, service numbers, project links, and gallery captions.
+
+## 2026-08-01 Centered Typography
+
+- Centered the hero copy/actions and reusable section headings so the updated fonts feel more balanced and intentional.
