@@ -10,6 +10,8 @@
   --charcoal: #202020;
   --track: #0e0e0f;
   --white: #ffffff;
+  --font-display: "Oswald", "Arial Narrow", Arial, Helvetica, sans-serif;
+  --font-body: "Rajdhani", Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -23,7 +25,8 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  font-weight: 500;
   background:
     repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.025) 0 1px, transparent 1px 18px),
     #fbfaf7;
@@ -60,7 +63,8 @@ nav {
   gap: clamp(14px, 3vw, 34px);
   font-size: 0.9rem;
   color: var(--white);
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -120,7 +124,8 @@ footer a:hover {
   min-height: 42px;
   padding: 0 18px;
   color: var(--white);
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-weight: 700;
   text-decoration: none;
   background: linear-gradient(135deg, var(--red-hot), var(--red-dark));
   border-radius: 0;
@@ -180,9 +185,10 @@ footer a:hover {
 .eyebrow {
   margin: 0 0 14px;
   color: var(--red);
+  font-family: var(--font-display);
   font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0.16em;
+  font-weight: 700;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -195,6 +201,13 @@ h2,
 h3,
 p {
   margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
 }
 
 h1 {
@@ -223,6 +236,7 @@ h3 {
   max-width: 620px;
   color: #f2eee7;
   font-size: clamp(1.05rem, 2vw, 1.35rem);
+  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -240,7 +254,8 @@ h3 {
   justify-content: center;
   min-height: 50px;
   padding: 0 22px;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 0;
@@ -284,8 +299,9 @@ h3 {
   display: grid;
   place-items: center;
   padding: 0 14px;
+  font-family: var(--font-display);
   font-size: 0.78rem;
-  font-weight: 900;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   border-right: 1px solid rgba(255, 255, 255, 0.2);
@@ -401,7 +417,8 @@ h3 {
   min-height: 42px;
   padding: 0 14px;
   color: var(--white);
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 700;
   text-decoration: none;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -466,7 +483,8 @@ h3 {
 
 .dyno-points span {
   padding: 16px 18px;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 700;
   text-transform: uppercase;
   background: var(--white);
 }
@@ -511,8 +529,9 @@ h3 {
   display: block;
   margin-bottom: 12px;
   color: #ff94ff;
+  font-family: var(--font-display);
   font-size: 0.74rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -568,8 +587,9 @@ h3 {
 
 .supplier-grid span {
   color: #ff94ff;
+  font-family: var(--font-display);
   font-size: 0.72rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -622,7 +642,8 @@ h3 {
   display: block;
   margin: 24px 28px 42px;
   color: var(--red-hot);
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-weight: 700;
 }
 
 .service-grid h3,
@@ -697,7 +718,8 @@ h3 {
   padding-left: 22px;
   color: var(--white);
   font-size: clamp(1.05rem, 2vw, 1.45rem);
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-weight: 700;
   text-decoration: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
 }
@@ -761,8 +783,9 @@ h3 {
   bottom: 14px;
   padding: 8px 10px;
   color: var(--white);
+  font-family: var(--font-display);
   font-size: 0.75rem;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   background: rgba(0, 0, 0, 0.74);
 }

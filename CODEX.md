@@ -263,3 +263,8 @@
 
 - Rebuilt `assets/ptr-logo-racing-black.png` as a true oval badge with transparent outside corners.
 - Removed the internal rectangular backing so the PTR logo reads as an oval shape instead of a boxed image.
+
+## 2026-08-01 Typography Upgrade
+
+- Added Google Fonts `Oswald` and `Rajdhani` for a sharper race-shop feel.
+- Applied display typography to headings, navigation, buttons, labels, service numbers, project links, and gallery captions.
