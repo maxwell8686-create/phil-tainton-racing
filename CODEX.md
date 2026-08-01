@@ -237,3 +237,8 @@
 
 - Lifted the site purple palette one step brighter/richer to better match the banner/logo energy.
 - Updated core theme variables and small highlight text accents.
+
+## 2026-08-01 Dyno Section Image Swap
+
+- Replaced the dyno post feature image with `assets/services/dyno-tuning.jpg` so the visual matches the dyno-room copy.
+- Updated the matching Facebook highlight image reference and alt text.
