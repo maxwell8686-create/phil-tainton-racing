@@ -171,10 +171,11 @@
 
 - Redesigned the old PTR Facebook banner to better match the website style.
 - Direction:
-  - Black/red racing visual system
+  - Black/purple racing visual system
   - Road performance and off road performance split
   - Central PTR branding
   - Clean service list
   - Bottom band with `PHIL TAINTON RACING | www.ptr.com.au`
 - Saved final banner asset:
   - `assets/facebook/ptr-facebook-cover-2026.png`
+- Updated the original red accents to purple/magenta to better match the website and PTR logo energy.
