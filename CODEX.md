@@ -109,3 +109,13 @@
   - Knoxfield address
   - Phone, email, and Facebook message link
 - Used existing local workshop/project imagery beside the details block.
+
+## 2026-08-01 Dyno Facebook Post
+
+- Added a homepage dyno post highlight from the user's Facebook screenshot.
+- Visible post details:
+  - Phil Tainton Racing
+  - April 20, 2024
+  - Facebook photo URL: `https://www.facebook.com/photo/?fbid=923237098892032&set=pcb.923237125558696`
+- Facebook did not expose the original full-size photo file through HTTP fetch or window capture, so the section currently uses existing local workshop imagery and links to the source post.
+- Swap target when available: replace the image in `.dyno-post-media` with a downloaded local dyno-room photo.
