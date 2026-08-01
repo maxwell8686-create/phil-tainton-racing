@@ -313,3 +313,8 @@
 ## 2026-08-01 Logo Display Fix
 
 - Locked header and footer logo rendering to a wide badge aspect ratio and reduced the footer logo size so it no longer displays as a tall oval.
+
+## 2026-08-01 Supplier Links
+
+- Added supplier/product cards linking to PTR shop pages for Yoshimura, Ohlins, Nitron, Brembo, Dynojet, Power Commander, Suzuki parts, and ECU reflashing.
+- Added matching supplier ItemList structured data for better shop/product SEO context.
