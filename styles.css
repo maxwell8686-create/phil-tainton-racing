@@ -213,10 +213,10 @@ h3 {
 }
 
 h1 {
-  max-width: 780px;
-  margin-bottom: 20px;
-  font-size: clamp(3.8rem, 12vw, 9.4rem);
-  line-height: 0.86;
+  max-width: 680px;
+  margin: 0 auto 20px;
+  font-size: clamp(2.8rem, 8vw, 6.6rem);
+  line-height: 0.92;
   letter-spacing: 0;
   text-transform: uppercase;
   text-shadow: 0 7px 0 rgba(215, 27, 255, 0.72), 0 24px 54px rgba(0, 0, 0, 0.72);

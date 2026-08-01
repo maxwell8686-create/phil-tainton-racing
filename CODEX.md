@@ -292,3 +292,7 @@
 ## 2026-08-01 Reference Style Logo Badge
 
 - Updated `assets/ptr-logo-racing-black.png` toward the reference badge style with a thicker white oval band, black interior, centered PTR mark, and purple splash retained.
+
+## 2026-08-01 Smaller Hero Heading
+
+- Reduced the front-page `Phil Tainton Racing` hero heading size and tightened its max width for better balance.
