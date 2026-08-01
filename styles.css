@@ -72,19 +72,34 @@ footer a {
 .footer-social {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
-.social-links a {
+.social-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-grid;
+  place-items: center;
   color: var(--white);
-  font-size: 0.76rem;
-  font-weight: 900;
   text-decoration: none;
-  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
 }
 
-.social-links a:hover {
-  color: #ff4d55;
+.social-icon svg {
+  width: 21px;
+  height: 21px;
+  display: block;
+  fill: currentColor;
+}
+
+.social-icon:hover {
+  color: var(--white);
+  background: linear-gradient(135deg, var(--red-hot), var(--red-dark));
+  border-color: transparent;
+  transform: translateY(-2px);
 }
 
 nav a:hover,
