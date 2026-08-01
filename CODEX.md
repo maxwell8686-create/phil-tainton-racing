@@ -232,3 +232,8 @@
   - KTM 250 SXF
   - Marketplace / new and used parts
 - Added JSON-LD ItemList schema for key shop categories to improve topical relevance around motorcycle parts, model categories, and performance services.
+
+## 2026-08-01 Purple Palette Lift
+
+- Lifted the site purple palette one step brighter/richer to better match the banner/logo energy.
+- Updated core theme variables and small highlight text accents.

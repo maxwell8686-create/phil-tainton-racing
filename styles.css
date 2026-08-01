@@ -3,10 +3,10 @@
   --muted: #6c6c6c;
   --panel: #ece8df;
   --line: #d6d1c8;
-  --red: #d71bff;
-  --red-hot: #ff2cf7;
-  --red-dark: #7a19d8;
-  --purple-glow: #b500ff;
+  --red: #e23bff;
+  --red-hot: #ff4dff;
+  --red-dark: #8d2cff;
+  --purple-glow: #c61cff;
   --charcoal: #202020;
   --track: #0e0e0f;
   --white: #ffffff;
@@ -187,7 +187,7 @@ footer a:hover {
 }
 
 .hero .eyebrow {
-  color: #ff7cff;
+  color: #ff94ff;
 }
 
 h1,
@@ -510,7 +510,7 @@ h3 {
 .highlight-grid span {
   display: block;
   margin-bottom: 12px;
-  color: #ff7cff;
+  color: #ff94ff;
   font-size: 0.74rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -567,7 +567,7 @@ h3 {
 }
 
 .supplier-grid span {
-  color: #ff7cff;
+  color: #ff94ff;
   font-size: 0.72rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -713,7 +713,7 @@ h3 {
 }
 
 .project-list a:hover {
-  color: #ff7cff;
+  color: #ff94ff;
 }
 
 .clients {
@@ -924,3 +924,4 @@ footer p {
     margin-bottom: 30px;
   }
 }
+
