@@ -50,7 +50,7 @@ a {
 
 .brand img {
   display: block;
-  width: 142px;
+  width: 210px;
   height: auto;
 }
 
@@ -745,7 +745,7 @@ footer {
 }
 
 footer img {
-  width: 150px;
+  width: min(280px, 100%);
   margin-bottom: 20px;
 }
 
@@ -816,7 +816,7 @@ footer p {
   }
 
   .brand img {
-    width: 118px;
+    width: 168px;
   }
 
   .header-call {

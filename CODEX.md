@@ -186,3 +186,10 @@
 - Reworked the global accent palette from red racing accents to purple/magenta racing accents.
 - Updated hero glow, speed lines, button gradients, ticker, image shadows, section slashes, service card accents, project link markers, contact band, and gallery accents.
 - Kept Facebook and Instagram icon colors as their official brand colors.
+
+## 2026-08-01 Racing Logo Upgrade
+
+- Generated a wider motorsport-style PTR logo to match the Facebook cover banner.
+- Saved as `assets/ptr-logo-racing.png`.
+- Replaced header and footer logo images with the upgraded racing logo.
+- Adjusted header/footer logo sizing for the wider asset.
