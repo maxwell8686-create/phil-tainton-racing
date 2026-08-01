@@ -276,3 +276,7 @@
 ## 2026-08-01 Center Footer Content
 
 - Centered the footer logo, footer text, and social icons so they align with the oval PTR badge.
+
+## 2026-08-01 Center Main Logo Mark
+
+- Rebuilt `assets/ptr-logo-racing-black.png` so the PTR mark and purple splash sit more centrally inside the oval badge.
