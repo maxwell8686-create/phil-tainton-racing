@@ -142,7 +142,7 @@ footer a:hover {
   background:
     radial-gradient(circle at 74% 20%, rgba(243, 35, 45, 0.34), transparent 22%),
     linear-gradient(105deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.58) 46%, rgba(0, 0, 0, 0.18)),
-    url("assets/race-bike.jpg") center / cover;
+    url("assets/facebook/suzuki-action-hero-clean.png") center / cover;
   transform: scale(1.02);
   filter: saturate(1.16) contrast(1.14);
 }

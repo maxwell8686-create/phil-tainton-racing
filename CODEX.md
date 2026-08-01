@@ -154,3 +154,15 @@
 - Expanded homepage services grid from four text-only cards to six image-backed service cards.
 - Added service content for dyno tuning, cylinder head, suspension, chassis, machine shop, and gearboxes.
 - Updated chassis, machine shop, and gearbox/crankshaft copy from the lower section of the PTR services page screenshot.
+
+## 2026-08-01 Front Page Hero Image
+
+- Captured the visible Facebook image from the Firefox window.
+- Source shown in screenshot:
+  - Suzuki Motorcycles Australia
+  - Date: October 4, 2017
+  - Facebook photo ID: `10155093061287865`
+  - Post references Josh Waters and ASBK at Phillip Island.
+- Saved cleaned hero image with Facebook UI icons removed:
+  - `assets/facebook/suzuki-action-hero-clean.png`
+- Updated homepage hero background to use `assets/facebook/suzuki-action-hero-clean.png`.
