@@ -179,3 +179,10 @@
 - Saved final banner asset:
   - `assets/facebook/ptr-facebook-cover-2026.png`
 - Updated the original red accents to purple/magenta to better match the website and PTR logo energy.
+
+## 2026-08-01 Site Purple Theme Pass
+
+- Applied the Facebook cover banner style across the website.
+- Reworked the global accent palette from red racing accents to purple/magenta racing accents.
+- Updated hero glow, speed lines, button gradients, ticker, image shadows, section slashes, service card accents, project link markers, contact band, and gallery accents.
+- Kept Facebook and Instagram icon colors as their official brand colors.
