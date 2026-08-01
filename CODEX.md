@@ -296,3 +296,8 @@
 ## 2026-08-01 Smaller Hero Heading
 
 - Reduced the front-page `Phil Tainton Racing` hero heading size and tightened its max width for better balance.
+
+## 2026-08-01 Supplied Logo Image Added
+
+- Replaced `assets/ptr-logo-racing-black.png` with the supplied PTR oval badge image from the desktop.
+- The header, footer, and structured data logo reference now use the supplied logo asset.
