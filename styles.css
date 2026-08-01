@@ -36,6 +36,12 @@ a {
   color: inherit;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--red-hot);
+  outline-offset: 4px;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -986,6 +992,17 @@ footer p {
 
   .service-grid span {
     margin-bottom: 30px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }
 

@@ -303,3 +303,9 @@
 - Added Open Graph image dimensions and theme/telephone metadata.
 - Added FAQPage structured data and a visible homepage FAQ section for dyno tuning, ECU reflashing, and motorcycle performance services.
 - Updated the PTR logo asset so the outside blends with transparency and the lower `Phil Tainton Racing` wordmark reads white.
+
+## 2026-08-01 Code Quality Pass
+
+- Added explicit image dimensions, lazy loading, and async decoding for below-the-fold images to reduce layout shift and improve page performance.
+- Replaced placeholder project links with real PTR shop/category destinations.
+- Added visible keyboard focus styles and reduced-motion support for better accessibility.
