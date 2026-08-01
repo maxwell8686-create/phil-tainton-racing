@@ -280,3 +280,7 @@
 ## 2026-08-01 Center Main Logo Mark
 
 - Rebuilt `assets/ptr-logo-racing-black.png` so the PTR mark and purple splash sit more centrally inside the oval badge.
+
+## 2026-08-01 Logo Mark Fine Tune
+
+- Nudged the PTR mark slightly further right and down within the oval badge for better visual centering.
