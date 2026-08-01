@@ -119,3 +119,14 @@
   - Facebook photo URL: `https://www.facebook.com/photo/?fbid=923237098892032&set=pcb.923237125558696`
 - Facebook did not expose the original full-size photo file through HTTP fetch or window capture, so the section currently uses existing local workshop imagery and links to the source post.
 - Swap target when available: replace the image in `.dyno-post-media` with a downloaded local dyno-room photo.
+
+## 2026-08-01 Facebook Photo Highlights
+
+- Added a homepage Facebook photo highlights section based on the user's screenshots of the PTR Facebook photos area.
+- Highlight subjects:
+  - SuperFlow dyno room / April 2024
+  - Machine shop precision components
+  - Suzuki race bike setup / February 2019
+  - Black bike workshop prep / April 2018
+- Added a "See all Facebook photos" link to `https://www.facebook.com/PhilTaintonRacing/photos`.
+- Current images use closest local workshop/project assets until exact Facebook originals are manually saved locally.

@@ -325,6 +325,7 @@ h3 {
 .feed-gallery,
 .facebook-proof,
 .dyno-post,
+.facebook-highlights,
 .contact-section {
   padding: clamp(64px, 9vw, 112px) clamp(20px, 5vw, 76px);
 }
@@ -466,6 +467,60 @@ h3 {
   font-weight: 900;
   text-transform: uppercase;
   background: var(--white);
+}
+
+.facebook-highlights {
+  color: var(--white);
+  background:
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.045) 0 1px, transparent 1px 18px),
+    #121212;
+}
+
+.facebook-highlights .section-heading p:not(.eyebrow) {
+  color: #cfcfcf;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-bottom: 30px;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.highlight-grid article {
+  min-width: 0;
+  background: #1f1f20;
+}
+
+.highlight-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  filter: saturate(1.08) contrast(1.06);
+}
+
+.highlight-grid div {
+  padding: 22px;
+}
+
+.highlight-grid span {
+  display: block;
+  margin-bottom: 12px;
+  color: #4d9aff;
+  font-size: 0.74rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.highlight-grid h3 {
+  color: var(--white);
+}
+
+.highlight-grid p {
+  color: #cdcdcd;
+  line-height: 1.55;
 }
 
 .service-grid {
@@ -712,7 +767,8 @@ footer p {
   .facebook-proof,
   .dyno-post,
   .project-layout,
-  .gallery-grid {
+  .gallery-grid,
+  .highlight-grid {
     grid-template-columns: 1fr;
   }
 
