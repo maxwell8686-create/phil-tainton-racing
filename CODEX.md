@@ -153,3 +153,4 @@
   - `assets/services/gearbox.jpg`
 - Expanded homepage services grid from four text-only cards to six image-backed service cards.
 - Added service content for dyno tuning, cylinder head, suspension, chassis, machine shop, and gearboxes.
+- Updated chassis, machine shop, and gearbox/crankshaft copy from the lower section of the PTR services page screenshot.
