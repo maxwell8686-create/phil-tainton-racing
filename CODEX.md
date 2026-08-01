@@ -284,3 +284,7 @@
 ## 2026-08-01 Logo Mark Fine Tune
 
 - Nudged the PTR mark slightly further right and down within the oval badge for better visual centering.
+
+## 2026-08-01 Logo Mark Right Nudge
+
+- Nudged the PTR mark a little further right inside the oval badge.
