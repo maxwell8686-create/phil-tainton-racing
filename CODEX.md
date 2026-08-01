@@ -130,3 +130,13 @@
   - Black bike workshop prep / April 2018
 - Added a "See all Facebook photos" link to `https://www.facebook.com/PhilTaintonRacing/photos`.
 - Current images use closest local workshop/project assets until exact Facebook originals are manually saved locally.
+
+## 2026-08-01 Saved Facebook Suzuki Team Photo
+
+- Captured the visible Firefox Facebook photo window and cropped the central image.
+- Saved as `assets/facebook/suzuki-team-2017.png`.
+- Source shown in screenshot:
+  - Facebook photo ID: `794835960669114`
+  - Date: April 30, 2017
+  - Caption text visible: "with Phil Tainton and Brodie Waters."
+- Added the saved image to the heritage section and Facebook photo highlights section.
