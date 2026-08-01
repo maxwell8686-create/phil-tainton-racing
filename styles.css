@@ -82,8 +82,7 @@ footer a {
   place-items: center;
   color: var(--white);
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid transparent;
   border-radius: 50%;
   transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
 }
@@ -97,9 +96,16 @@ footer a {
 
 .social-icon:hover {
   color: var(--white);
-  background: linear-gradient(135deg, var(--red-hot), var(--red-dark));
   border-color: transparent;
   transform: translateY(-2px);
+}
+
+.facebook-icon {
+  background: #1877f2;
+}
+
+.instagram-icon {
+  background: radial-gradient(circle at 30% 105%, #feda75 0 16%, #fa7e1e 28%, #d62976 48%, #962fbf 72%, #4f5bd5 100%);
 }
 
 nav a:hover,
