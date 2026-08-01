@@ -193,3 +193,4 @@
 - Saved as `assets/ptr-logo-racing.png`.
 - Replaced header and footer logo images with the upgraded racing logo.
 - Adjusted header/footer logo sizing for the wider asset.
+- Enlarged the footer logo presentation and added a purple racing footer treatment so it does not appear like a tiny logo on a plain black block.
