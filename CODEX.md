@@ -318,3 +318,8 @@
 
 - Added supplier/product cards linking to PTR shop pages for Yoshimura, Ohlins, Nitron, Brembo, Dynojet, Power Commander, Suzuki parts, and ECU reflashing.
 - Added matching supplier ItemList structured data for better shop/product SEO context.
+
+## 2026-08-02 Expanded SEO Crawl Coverage
+
+- Expanded `sitemap.xml` from a single homepage URL to 46 important PTR service, project, shop, supplier, and model-category URLs pulled from the captured PTR sitemap.
+- Added direct header navigation anchors for Shop, Suppliers, and FAQ to strengthen internal crawl paths on the homepage.
